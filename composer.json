@@ -1,0 +1,27 @@
+{
+  "name" : "Filesystem Manager Temp",
+  "description" : "This is a library that adds cli commands that can scan for and sort pictures.",
+  "require" : {
+    "php" : ">5.5.0",
+    "symfony/event-dispatcher" : "~2.6",
+    "symfony/console" : "~2.6",
+    "symfony/dependency-injection" : "~2.6",
+    "symfony/filesystem" : "~2.6",
+    "monolog/monolog" : "~1.12"
+  },
+  "require-dev" : {
+    "phpunit/phpunit" : "~4.4"
+  },
+  "authors" : [ {
+    "name" : "Shaun Bramley",
+    "email" : "shaun.bramley@gmail.com"
+  } ],
+  "keywords" : [ "sort", "picture", "pictures", "symfony", "bundle" ],
+  "autoload" : {
+    "psr-4" : {
+      "Bramley\\Filesystem\\" : "src/"
+    }
+  },
+  "license" : "Haven't decided",
+  "type" : "library"
+}
